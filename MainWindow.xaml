@@ -1,0 +1,30 @@
+﻿<Window x:Class="Space_battle_shooter_WPF_MOO_ICT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Space_battle_shooter_WPF_MOO_ICT"
+        mc:Ignorable="d"
+        Title="Batalha Espacial" Height="650" Width="540" ResizeMode="CanMinimize">
+
+    <Canvas Name="MeuCanvas" Focusable="True" Background="Black" KeyDown="AoPressionarTecla" KeyUp="AoSoltarTecla">
+
+        <Rectangle Name="jogador" Height="50" Width="60" Fill="Yellow" Canvas.Left="235" Canvas.Top="550" />
+
+        <Label Name="textoPontuacao" Content="Pontos: 0" FontSize="18" FontWeight="Bold" Foreground="White" Canvas.Left="10" Canvas.Top="10"/>
+
+        <Label Name="textoDano" Content="Dano: 0" FontSize="18" FontWeight="Bold" Foreground="White" Canvas.Right="10" Canvas.Top="10" />
+
+        <Rectangle Name="fundoBarraPoderEspecial" Height="20" Width="150" Fill="#444" Stroke="Cyan" Canvas.Left="190" Canvas.Top="15" />
+        <Rectangle Name="preenchimentoBarraPoderEspecial" Height="20" Width="0" Fill="Cyan" Canvas.Left="190" Canvas.Top="15" />
+        <Label Name="statusPoderEspecial" Content="Carregando..." FontSize="14" FontWeight="Bold" Foreground="LightGray" Canvas.Left="220" Canvas.Top="12" />
+        <Label Content="(B)" FontSize="14" FontWeight="Bold" Foreground="White" Canvas.Left="160" Canvas.Top="12" />
+
+        <Rectangle Name="ferramentaPowerUp" Tag="powerup" Height="40" Width="40" Visibility="Collapsed">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="pack://application:,,,/images/5.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+    </Canvas>
+</Window>
