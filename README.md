@@ -1,14 +1,14 @@
-# 🌌 Novas Features para "Space Battle Shooter" em WPF
+# Novas Features para "Space Battle Shooter" em WPF
 
 ---
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
-Este é um jogo 2D de batalha espacial ("shmup") desenvolvido em C# e WPF.
+Este é um jogo 2D de batalha espacial desenvolvido em C# e WPF.
 
 O foco deste projeto foi **refatorar e adicionar módulos em uma base de código pré-existente**. O objetivo foi otimizar a arquitetura original para suportar novas mecânicas de jogabilidade, demonstrando capacidade de adaptação e manutenção de software.
 
-### ✨ Funcionalidades que Implementei
+### Funcionalidades que Implementei
 
 Partindo do jogo base, eu pessoalmente projetei e implementei os seguintes recursos:
 
@@ -18,13 +18,13 @@ Partindo do jogo base, eu pessoalmente projetei e implementei os seguintes recur
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **C#**
 * **.NET**
-* **Programação Orientada a Objetos (POO)**
+* **Programação Orientada a Objetos**
 
-## 📋 Como Executar
+## Como Executar
 
 1.  Clone o repositório: `git clone https://github.com/da6zin/SpaceBattleShooter-em-WPF`
 2.  Abra a solução (`.sln`) no Visual Studio.
